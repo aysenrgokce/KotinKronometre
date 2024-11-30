@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         binding.button.isEnabled = false//bu starta bastığımız an start butonunu tekrar kullanılmaz hale getirir
 
     }
-    fun stopBottun(view: View){
+    fun stopButton(view: View){
         //start buutonunu stopa bastıktan sonra aktive edebiliriz
         binding.button.isEnabled = true
         number = 0
